@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+/dist/
+/.next/
+/.parcel-cache/
+
+# Production files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Miscellaneous
+coverage/
+*.log

@@ -1,0 +1,644 @@
+﻿<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyễn Trung — Full-Stack Developer & UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Portfolio của Nguyễn Trung — Full-Stack Developer & UI/UX Designer. Mã Nguồn Trong Tay, Định Hướng Tương Lai."
+    />
+    <meta property="og:title" content="Nguyễn Trung — Portfolio" />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer & UI/UX Designer. Mã Nguồn Trong Tay, Định Hướng Tương Lai."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-logo">
+        Nguyễn Trung<span class="nav-logo-dot">.</span>
+      </div>
+      <div class="nav-links">
+        <a href="#projects">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/ntrungz0704" target="_blank" class="btn-nav"
+          >GitHub ↗</a
+        >
+      </div>
+      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#projects">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/ntrungz0704" target="_blank">GitHub ↗</a>
+    </div>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-grid-lines"></div>
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <span class="dot"></span>
+              Available for work
+            </div>
+            <h1 class="hero-headline">
+              Nguyễn Trung,<br />
+              <span class="line-2">Phát triển<br />Web.</span>
+            </h1>
+            <p class="hero-sub">Mã Nguồn Trong Tay, Định Hướng Tương Lai.</p>
+            <p class="hero-role">
+              // Full-Stack Developer &amp; UI/UX Designer
+            </p>
+            <div class="hero-ctas">
+              <a href="mailto:ntrungz0704@gmail.com" class="btn-primary"
+                >Get in touch ↗</a
+              >
+              <a href="#projects" class="btn-ghost">View Work</a>
+            </div>
+          </div>
+          <div class="hero-code-wrap">
+            <div class="code-card">
+              <div class="code-card-header">
+                <span class="code-dot red"></span>
+                <span class="code-dot yellow"></span>
+                <span class="code-dot green"></span>
+                <span class="code-filename">developer.ts</span>
+              </div>
+              <div class="code-body">
+                <div>
+                  <span class="ln">1</span><span class="kw">const</span>
+                  <span class="fn">developer</span> <span class="pu">= {</span>
+                </div>
+                <div>
+                  <span class="ln">2</span>&nbsp;&nbsp;<span class="pr"
+                    >name</span
+                  ><span class="pu">:</span>
+                  <span class="str">"Nguyễn Trung"</span
+                  ><span class="pu">,</span>
+                </div>
+                <div>
+                  <span class="ln">3</span>&nbsp;&nbsp;<span class="pr"
+                    >role</span
+                  ><span class="pu">:</span>
+                  <span class="str">"Full-Stack &amp; UI/UX"</span
+                  ><span class="pu">,</span>
+                </div>
+                <div>
+                  <span class="ln">4</span>&nbsp;&nbsp;<span class="pr"
+                    >stack</span
+                  ><span class="pu">: [</span>
+                </div>
+                <div>
+                  <span class="ln">5</span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="str"
+                    >"React"</span
+                  ><span class="pu">,</span> <span class="str">"PHP"</span
+                  ><span class="pu">,</span> <span class="str">"MySQL"</span
+                  ><span class="pu">,</span>
+                </div>
+                <div>
+                  <span class="ln">6</span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="str"
+                    >"Figma"</span
+                  ><span class="pu">,</span>
+                  <span class="str">"JavaScript"</span><span class="pu">,</span>
+                </div>
+                <div>
+                  <span class="ln">7</span>&nbsp;&nbsp;<span class="pu"
+                    >],</span
+                  >
+                </div>
+                <div>
+                  <span class="ln">8</span>&nbsp;&nbsp;<span class="pr"
+                    >available</span
+                  ><span class="pu">:</span> <span class="kw">true</span
+                  ><span class="pu">,</span>
+                </div>
+                <div><span class="ln">9</span><span class="pu">};</span></div>
+                <div>&nbsp;</div>
+                <div>
+                  <span class="ln">11</span
+                  ><span class="cm">// Mã nguồn trong tay,</span>
+                </div>
+                <div>
+                  <span class="ln">12</span
+                  ><span class="cm"
+                    >// định hướng tương lai.
+                    <span class="type-cursor">▋</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Tech Strip -->
+    <section id="tech">
+      <div class="tech-label reveal">Technologies I work with</div>
+      <div class="tech-track-wrap">
+        <div class="tech-track" id="techTrack">
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt=""
+              /> </span
+            >HTML5</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt=""
+              /> </span
+            >CSS3</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt=""
+              /> </span
+            >JavaScript</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                alt=""
+              /> </span
+            >PHP</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt=""
+              /> </span
+            >MySQL</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt=""
+              /> </span
+            >React.js</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.simpleicons.org/figma/F24E1E"
+                alt=""
+              /> </span
+            >Figma</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt=""
+              /> </span
+            >Git</span
+          >
+
+          <!-- duplicate for infinite -->
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt=""
+              /> </span
+            >HTML5</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt=""
+              /> </span
+            >CSS3</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt=""
+              /> </span
+            >JavaScript</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                alt=""
+              /> </span
+            >PHP</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt=""
+              /> </span
+            >MySQL</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt=""
+              /> </span
+            >React.js</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.simpleicons.org/figma/F24E1E"
+                alt=""
+              /> </span
+            >Figma</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.simpleicons.org/adobephotoshop/31A8FF"
+                alt=""
+              /> </span
+            >Adobe Photoshop</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.simpleicons.org/adobeillustrator/FF9A00"
+                alt=""
+              /> </span
+            >Adobe Illustrator</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.simpleicons.org/capcut/FFFFFF"
+                alt=""
+              /> </span
+            >CapCut</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt=""
+              /> </span
+            >Git</span
+          >
+          <span class="tech-badge"
+            ><span class="tech-icon"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                alt=""
+              /> </span
+            >Linux</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">Featured Work</div>
+          <h2 class="section-title">Những dự án nổi bật.</h2>
+          <p class="section-desc">
+            Các dự án được xây dựng với sự tập trung vào trải nghiệm người dùng
+            và chất lượng code.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <!-- PC PRO -->
+          <div class="project-card project-card-1 reveal">
+            <div class="project-preview">
+              <div class="project-preview-grid"></div>
+              <div class="project-preview-glow"></div>
+              <span class="project-preview-label">PC PRO</span>
+            </div>
+            <div class="project-body">
+              <div class="project-name">PC PRO</div>
+              <p class="project-desc">
+                Nền tảng thương mại điện tử chuyên về linh kiện máy tính. Tìm
+                kiếm, so sánh và mua sắm linh kiện PC dễ dàng.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">PHP</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">HTML/CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <a href="#" class="project-link">View project ↗</a>
+            </div>
+          </div>
+          <!-- CineFast -->
+          <div class="project-card project-card-2 reveal reveal-delay-1">
+            <div class="project-preview">
+              <div class="project-preview-grid"></div>
+              <div class="project-preview-glow"></div>
+              <span class="project-preview-label">CineFast</span>
+            </div>
+            <div class="project-body">
+              <div class="project-name">CineFast</div>
+              <p class="project-desc">
+                Ứng dụng xem phim trực tuyến tốc độ cao. Giao diện tối giản,
+                phân loại thể loại và phát streaming mượt mà.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">REST API</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+              <a href="#" class="project-link">View project ↗</a>
+            </div>
+          </div>
+          <!-- Portfolio -->
+          <div class="project-card project-card-3 reveal reveal-delay-2">
+            <div class="project-preview">
+              <div class="project-preview-grid"></div>
+              <div class="project-preview-glow"></div>
+              <span class="project-preview-label">Portfolio</span>
+            </div>
+            <div class="project-body">
+              <div class="project-name">Portfolio</div>
+              <p class="project-desc">
+                Trang portfolio cá nhân theo phong cách developer dark
+                aesthetic, với hiệu ứng animation tinh tế.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <a href="#" class="project-link">View project ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <!-- Block 1 -->
+        <div class="about-grid reveal">
+          <div class="about-text-block">
+            <div class="section-eyebrow">Philosophy</div>
+            <h2 class="section-title">First-class development experience.</h2>
+            <p>
+              Tôi tin rằng code tốt không chỉ chạy được — nó phải dễ đọc, dễ mở
+              rộng, và dễ bàn giao. Mỗi dòng code là một quyết định thiết kế.
+            </p>
+            <p>
+              Với nền tảng vững chắc từ HTML/CSS đến PHP và React, tôi tiếp cận
+              mọi dự án với tư duy hệ thống — từ database schema đến pixel cuối
+              cùng.
+            </p>
+          </div>
+          <div class="about-code-card">
+            <div class="about-code-header">
+              <span class="code-dot red"></span>
+              <span class="code-dot yellow"></span>
+              <span class="code-dot green"></span>
+              <span class="code-filename">philosophy.ts</span>
+            </div>
+            <div class="about-code-body">
+              <div>
+                <span class="cm">// Code tốt = dễ đọc + dễ mở rộng</span>
+              </div>
+              <div>
+                <span class="kw">function</span>
+                <span class="fn">writeCleanCode</span
+                ><span class="pu">() {</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;<span class="kw">return</span>
+                <span class="pu">{</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="pr">readable</span
+                ><span class="pu">:</span> <span class="kw">true</span
+                ><span class="pu">,</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="pr">maintainable</span
+                ><span class="pu">:</span> <span class="kw">true</span
+                ><span class="pu">,</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="pr">scalable</span
+                ><span class="pu">:</span> <span class="kw">true</span
+                ><span class="pu">,</span>
+              </div>
+              <div>&nbsp;&nbsp;<span class="pu">};</span></div>
+              <div><span class="pu">}</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="about-grid reverse reveal">
+          <div class="about-code-card">
+            <div class="about-code-header">
+              <span class="code-dot red"></span>
+              <span class="code-dot yellow"></span>
+              <span class="code-dot green"></span>
+              <span class="code-filename">workflow.figma → code</span>
+            </div>
+            <div class="about-code-body">
+              <div><span class="cm">// Figma → Production</span></div>
+              <div>
+                <span class="kw">const</span>
+                <span class="fn">designToCode</span>
+                <span class="pu">= async () =&gt; {</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;<span class="kw">const</span> design
+                <span class="pu">=</span> <span class="kw">await</span>
+                <span class="fn">figma</span><span class="pu">.</span
+                ><span class="fn">export</span><span class="pu">();</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;<span class="kw">const</span> code
+                <span class="pu">=</span> <span class="fn">translate</span
+                ><span class="pu">(</span>design<span class="pu">);</span>
+              </div>
+              <div>
+                &nbsp;&nbsp;<span class="kw">return</span>
+                <span class="fn">deploy</span><span class="pu">(</span>code<span
+                  class="pu"
+                  >);</span
+                >
+              </div>
+              <div><span class="pu">};</span></div>
+              <div>&nbsp;</div>
+              <div><span class="cm">// pixel-perfect every time ✓</span></div>
+            </div>
+          </div>
+          <div class="about-text-block">
+            <div class="section-eyebrow">Design + Dev</div>
+            <h2 class="section-title">Design meets engineering.</h2>
+            <p>
+              Là người nằm ở giao điểm giữa design và development, tôi có thể
+              biến Figma prototype thành production-ready code mà không mất đi
+              intent của designer.
+            </p>
+            <p>
+              Từ Photoshop đến Illustrator, từ wireframe đến deploy — tôi hiểu
+              cả hai ngôn ngữ.
+            </p>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row reveal">
+          <div class="stat-item">
+            <span class="stat-number" data-target="3">0</span>
+            <span class="stat-label">Projects shipped</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="100">0</span>
+            <span class="stat-label">% Passion</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="section-eyebrow contact-eyebrow">
+            Let's talk
+          </div>
+          <h2 class="section-title">Hãy cùng xây dựng<br />điều gì đó.</h2>
+          <p class="section-desc">
+            Tôi đang tìm kiếm dự án thú vị và cơ hội hợp tác mới. Một email nhỏ
+            có thể bắt đầu điều lớn.
+          </p>
+          <div class="contact-ctas">
+            <a href="mailto:ntrungz0704@gmail.com" class="btn-primary"
+              >Send me an email ↗</a
+            >
+            <a
+              href="https://github.com/ntrungz0704"
+              target="_blank"
+              class="btn-ghost"
+              >GitHub ↗</a
+            >
+          </div>
+          <div class="contact-socials">
+            <a
+              href="https://github.com/ntrungz0704"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/npham-thanh-trung-dev/"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+            <a href="mailto:ntrungz0704@gmail.com" class="social-link">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"
+                />
+              </svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-wrap">
+      <footer>
+        <div class="footer-left">
+          <strong>Nguyễn Trung</strong> · ntrungz0704@gmail.com
+        </div>
+        <div class="footer-right">
+          © 2025 · Designed &amp; built by Nguyễn Trung
+        </div>
+      </footer>
+    </div>
+    <script src="js/modules/cursor.js"></script>
+    <script src="js/modules/navigation.js"></script>
+    <script src="js/modules/reveal.js"></script>
+    <script src="js/modules/counters.js"></script>
+    <script src="js/modules/effects.js"></script>
+  </body>
+</html>
